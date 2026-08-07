@@ -6,7 +6,7 @@ export type LeadInput = {
   propertyType: string;
   location: string;
   message: string;
-  photoName?: string;
+  photoName?: string | undefined;
 };
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
