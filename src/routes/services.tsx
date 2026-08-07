@@ -37,7 +37,7 @@ export const Route = createFileRoute("/services")({
       },
     ],
   }),
-  component: Services;
+  component: Services,
 });
 
 const faqs: FaqItem[] = [
